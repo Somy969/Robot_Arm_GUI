@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : ٠٦‏/٠٧‏/٢٠٢١, ٨:١٩:٣٠ م
+    Author     : somy9
+*/
+
+body{
+    
+}
+.title{
+    position: absolute;
+    top:40px;
+    right:600px;
+    font-size: 30px;
+}
+.slidecontainer {
+ width: 60%;  /*Width of the outside container */
+ position: absolute;
+ right:240px;
+ top:100px;
+  
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: dodgerblue; /*  background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: dodgerblue; /*  background */
+  cursor: pointer; /* Cursor on hover */
+}
+span{
+    color:dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#m1{
+    position: absolute;
+    top:90px;
+    left:240px;
+    
+}
+#m2{
+    position: absolute;
+    top:175px;
+    left:240px;
+}
+#m3{
+    position: absolute;
+    top:258px;
+    left:240px;
+}
+#m4{
+    position: absolute;
+    top:344px;
+    left:240px;
+}
+#m5{
+    position: absolute;
+    top:428px;
+    left:240px;
+}
+#m6{
+    position: absolute;
+    top:515px;
+    left:240px;
+}
+#value1{
+    position: absolute;
+    top: 102px;
+    right:200px;
+}
+#value2{
+    position: absolute;
+    top: 187px;
+    right:200px;
+}
+#value3{
+    position: absolute;
+    top: 273px;
+    right:200px;
+}
+#value4{
+    position: absolute;
+    top: 359px;
+    right:200px;
+}
+#value5{
+    position: absolute;
+    top: 445px;
+    right:200px;
+}
+#value6{
+    position: absolute;
+    top: 531px;
+    right:200px;
+}
+.button {
+  background-color: dodgerblue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-radius: 15px;
+}
+.button:hover {background-color: #3e8e41}
+#btn1 {
+  position: absolute;
+  bottom: 40px;
+  left: 550px;
+}
+#btn2 {
+  position: absolute;
+  bottom: 40px;
+  left: 750px;
+}
